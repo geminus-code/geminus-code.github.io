@@ -189,6 +189,7 @@ function unit_select() {
 	updateChart(0);
 }
 
+$(document).ready(function(){$('[data-toggle="tooltip"]').tooltip();});
 $('#trendBack').bind('click', function () {updateChart(-3);});
 $('#trendForward').bind('click', function () {updateChart(3);});
 $('#trendBackLong').bind('click', function () {updateChart(-100);});
