@@ -28,20 +28,23 @@
 			<div class="position-relative mb-2 w-100 h-100">
 				<div class="position-absolute w-100 h-100"><canvas id="chart" class="w-100 h-100"></canvas></div>
 			</div>
-			<div class="d-flex justify-content-center mt-auto">
-				<button type="button" id="trendBackLong" class="btn btn-sm btn-info mx-3"><<</button>
-				<button type="button" id="trendBack" class="btn btn-sm btn-info mx-3"><</button>
-				<select id="unit" class="rounded-sm bg-info text-white">
-					<option value="1">100</option>
-					<option value="2">200</option>
-					<option value="3">300</option>
-					<option value="4">500</option>
-					<option value="5">1000</option>
-					<option value="6" selected>All</option>
-				</select>
-				<button type="button" id="trendForward" class="btn btn-sm btn-info mx-3">></button>
-				<button type="button" id="trendForwardLong" class="btn btn-sm btn-info mx-3">>></button>
-				<i class="material-icons justify-content-end">help</i>
+			<div class="d-flex justify-content-between mt-auto">
+				<i class="material-icons ml-2">help</i>
+				<div class="d-flex">
+					<button type="button" id="trendBackLong" class="btn btn-sm btn-info mx-3"><<</button>
+					<button type="button" id="trendBack" class="btn btn-sm btn-info mx-3"><</button>
+					<select id="unit" class="rounded-sm bg-info text-white">
+						<option value="1">100</option>
+						<option value="2">200</option>
+						<option value="3">300</option>
+						<option value="4">500</option>
+						<option value="5">1000</option>
+						<option value="6" selected>All</option>
+					</select>
+					<button type="button" id="trendForward" class="btn btn-sm btn-info mx-3">></button>
+					<button type="button" id="trendForwardLong" class="btn btn-sm btn-info mx-3">>></button>
+				</div>
+				<i class="material-icons mr-2">help</i>
 			</div>
 		</div>
 	</div>
