@@ -10,6 +10,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://www.chartjs.org/dist/2.9.4/Chart.min.js"></script>	
 </head>
 
@@ -29,7 +30,9 @@
 				<div class="position-absolute w-100 h-100"><canvas id="chart" class="w-100 h-100"></canvas></div>
 			</div>
 			<div class="d-flex justify-content-between mt-auto">
-				<i class="material-icons ml-2">help</i>
+				<a href="#" class="ml-2" data-toggle="tooltip" data-placement="top" title="The data is received from yahoo finance website">
+					<i class="material-icons">help</i>
+				</a>
 				<div class="d-flex">
 					<button type="button" id="trendBackLong" class="btn btn-sm btn-info mx-3"><<</button>
 					<button type="button" id="trendBack" class="btn btn-sm btn-info mx-3"><</button>
@@ -44,7 +47,9 @@
 					<button type="button" id="trendForward" class="btn btn-sm btn-info mx-3">></button>
 					<button type="button" id="trendForwardLong" class="btn btn-sm btn-info mx-3">>></button>
 				</div>
-				<i class="material-icons mr-2">help</i>
+				<a href="#" class="mr-2" data-toggle="tooltip" data-placement="top" title="The chart is drawn with chart.js">
+					<i class="material-icons">help</i>
+				</a>				
 			</div>
 		</div>
 	</div>
