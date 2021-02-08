@@ -1,2 +1,2 @@
 # geminus-code.github.io
-Project
+A simple ML project to predict the dynamics of stock prices
