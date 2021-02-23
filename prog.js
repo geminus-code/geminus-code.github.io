@@ -43,19 +43,17 @@ var config = {
   options: {
     animation: {duration: 0},
     scales: {
-    xAxes: [{
-      type: 'time',
-      distribution: 'series',
-      ticks: {
-        source: 'labels'
-      },
-    }],
-    yAxes: [{
-      gridLines: {drawBorder: false},
-      scaleLabel: {
-        display: true,
-        labelString: 'Closing price'
-				}
+      xAxes: [{
+        type: 'time',
+        distribution: 'series',
+        ticks: {source: 'labels'},
+      }],
+      yAxes: [{
+        gridLines: {drawBorder: false},
+        scaleLabel: {
+          display: true,
+          labelString: 'Closing price'
+        }
       }],
     },
     hover: {
