@@ -150,7 +150,7 @@ function updateChart(shift=0) {
 	config.data.datasets[2].data = split_line;
 	config.data.labels = labels;
 	if (window.myChart) {window.myChart.destroy(); delete window.myChart;}
-    window.myChart = new Chart(ctx, config);
+	window.myChart = new Chart(ctx, config);
 }
 
 function show_model(obj, name) {
