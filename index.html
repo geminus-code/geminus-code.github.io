@@ -1,0 +1,43 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Machine Learning Project">
+  <title>Machine Learning Project</title>   
+  <link rel="stylesheet" href="static/bootstrap-5.0.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/bootstrap-icons-1.3.0/bootstrap-icons.css">
+  <link rel="stylesheet" href="static/dashboard.css">
+  <script src="static/react/react.production.min.js"></script>
+	<script src="static/react/react-dom.production.min.js"></script>
+  <script src="static/react/babel.min.js"></script>
+  <script src="static/jquery-3.5.1.min.js"></script>
+  <script src="static/chartjs-3.2.1/chart.min@3.2.1.js"></script>
+	<script src="static/chartjs-3.2.1/luxon.min@1.26.0.js"></script>
+	<script src="static/chartjs-3.2.1/chartjs-adapter-luxon.min@1.0.0.js"></script>
+</head>
+
+<body>   
+<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+  <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#">Simple ML Project</a>
+  <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</header>
+
+<div class="container-fluid">
+  <div class="row">
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+      <div class="position-sticky pt-0 h-100 overflow-auto">
+        <ul class="nav flex-column" id="tickersList">
+        </ul>
+      </div>
+    </nav>
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 pb-3" id="chart_container"></main>
+  </div>
+</div>
+<script src="static/bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+<script src="static/model.production.js"></script>
+<script src="static/engine.production.js"></script>
+</body>
+</html>
